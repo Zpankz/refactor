@@ -1,0 +1,20 @@
+# Python build / runtime artifacts
+autoenv
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.tox/
+.nox/
+
+# Environment and local config
+.env
+.venv/
+env/
+
+# Packaging output
+.DS_Store
